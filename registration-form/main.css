@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(165, 96, 165);
+    font-family: 'Courier New', Courier, monospace;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: rgb(230, 228, 228);
+    box-shadow: 20px 20px 20px 0px rosybrown;
+}
+input[type="text"],input[type="password"] {
+    width: 100%;
+    padding: 16px;
+    margin: 5px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type="text"]:focus,input[type="password"]:focus {
+    font-style: oblique;
+    background-color: rgb(231, 221, 84);
+    outline: none;
+    zoom: 120%;
+}
+.regbtn {
+    background-color: rgb(2, 44, 2);
+    color: honeydew;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    margin: auto;
+    opacity: 0.88;
+}
+.regbtn:hover {
+    zoom: 120%;
+    background-color: rgb(50, 82, 4);
+}
